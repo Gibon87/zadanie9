@@ -1,6 +1,6 @@
 var triangle1Area; 
 var triangle2Area; 
-var triangle3Area 
+var triangle3Area; 
 
 function getTriangleArea(a, h) {
 	if (a <= 0 || h <= 0 ) {
