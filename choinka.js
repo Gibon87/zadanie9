@@ -1,14 +1,12 @@
-var n;
-var star;
-var i;
 function drawTree (n) 
 {
-star="*";	
+var star;
+var i;
+star="*";
 for (i=1;i<=n;i++) 
 	{
 	console.log(star);
 	star=star + "*";
-	document.write("<br>");
 	} 
 }
-console.log(drawTree(5));
+drawTree(5);
